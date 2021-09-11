@@ -6,6 +6,10 @@ public class Auto {
     private  double precio;
     private double descuento;
 
+    private  double presionLlanta;
+    private  double cantLitrosGasolina;
+    private  double nivelAceite;
+
     public Auto(String marca, String modelo, String color, String matricula, double precio, double descuento) {
         this.marca = marca;
         this.modelo = modelo;
@@ -37,6 +41,31 @@ public class Auto {
 
     public double getDescuento() {
         return descuento;
+    }
+
+    public double getPresionLlanta() {
+        return presionLlanta;
+    }
+
+    public double getCantLitros() {
+        return cantLitrosGasolina;
+    }
+
+    public double getNivelAceite() {
+        return nivelAceite;
+    }
+
+
+    public void setPresionLlanta(double presionLlanta) {
+        this.presionLlanta = presionLlanta;
+    }
+
+    public void setCantLitrosGasolina(double cantLitrosGasolina) {
+        this.cantLitrosGasolina = cantLitrosGasolina;
+    }
+
+    public void setNivelAceite(double nivelAceite) {
+        this.nivelAceite = nivelAceite;
     }
 
     public void  Arrancar(){
