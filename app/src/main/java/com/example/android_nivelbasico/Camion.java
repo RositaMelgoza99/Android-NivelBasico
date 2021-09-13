@@ -1,4 +1,8 @@
-public class Camion extends Auto{
+package com.example.android_nivelbasico;
+
+import com.example.android_nivelbasico.Auto;
+
+public class Camion extends Auto {
 
     private double capCarga;
     private String tamaño;

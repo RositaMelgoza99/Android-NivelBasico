@@ -1,4 +1,8 @@
-public class Tractor extends Auto{
+package com.example.android_nivelbasico;
+
+import com.example.android_nivelbasico.Auto;
+
+public class Tractor extends Auto {
 
     private String tamaño;
     private  double potencia;

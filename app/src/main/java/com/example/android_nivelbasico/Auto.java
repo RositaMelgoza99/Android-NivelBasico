@@ -1,3 +1,5 @@
+package com.example.android_nivelbasico;
+
 public class Auto {
     private String marca;
     private String modelo;
@@ -17,7 +19,10 @@ public class Auto {
         this.matricula = matricula;
         this.precio = precio;
         this.descuento = descuento;
+
     }
+
+
 
     public String getMarca() {
         return marca;
@@ -89,5 +94,33 @@ public class Auto {
 
     public void  verDescuento(){
 
+    }
+
+    public  String mensaje(){
+        return  "Los chevys son muy practicos";
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public void setDescuento(double descuento) {
+        this.descuento = descuento;
     }
 }
